@@ -6,8 +6,8 @@ PEICD100 開發的 Windows 11 x64 文書、PDF、圖片與影音工具。
 
 到 [Releases](https://github.com/peicd100/documents-toolkit-releases/releases/latest) 下載：
 
-- `DocumentsToolkit_Setup_v1.0.0.exe`：一般使用者建議使用的安裝版。安裝在目前使用者的目錄，可從 Windows「已安裝的應用程式」解除安裝。
-- `DocumentsToolkit_Windows11_x64_v1.0.0.zip`：可攜版。完整解壓後啟動「文書處理工具.exe」，請保留旁邊的 `_internal` 資料夾。
+- `DocumentsToolkit_Setup_v1.0.1.exe`：一般使用者建議使用的安裝版。安裝在目前使用者的目錄，可從 Windows「已安裝的應用程式」解除安裝。
+- `DocumentsToolkit_Windows11_x64_v1.0.1.zip`：可攜版。完整解壓後啟動「文書處理工具.exe」，請保留旁邊的 `_internal` 資料夾。
 - `SHA256SUMS.txt`：下載檔案的 SHA-256 校驗碼。
 
 ## 使用方式
@@ -37,6 +37,8 @@ PEICD100 開發的 Windows 11 x64 文書、PDF、圖片與影音工具。
 ## 更新與設定
 
 啟動時可在背景檢查新版，也可按「檢查更新」。下載及安裝前均會詢問；工作進行中會延後安裝。更新檔案會檢查大小與 SHA-256，升級保留設定。
+
+主視窗右上角「設定」提供「自動檢查更新」及「登入 Windows 後自動啟動」。自動啟動預設關閉，勾選後登入 Windows 時只常駐系統匣，取消勾選即可停用；不需要系統管理員權限。可攜版搬移位置後，請重新勾選以更新路徑。
 
 設定與啟動紀錄放在 `%LOCALAPPDATA%\DocumentsToolkit`。解除安裝預設保留這些設定。PPT 轉 PDF 功能需要電腦上安裝 Microsoft PowerPoint。
 
