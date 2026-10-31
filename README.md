@@ -6,8 +6,8 @@ PEICD100 開發的 Windows 11 x64 文書、PDF、圖片與影音工具。
 
 到 [Releases](https://github.com/peicd100/documents-toolkit-releases/releases/latest) 下載：
 
-- `DocumentsToolkit_Setup_v1.1.2.exe`：一般使用者建議使用的安裝版。安裝在目前使用者的目錄，可從 Windows「已安裝的應用程式」解除安裝。
-- `DocumentsToolkit_Windows11_x64_v1.1.2.zip`：可攜版。完整解壓後啟動「文書處理工具.exe」，請保留旁邊的 `_internal` 資料夾。
+- `DocumentsToolkit_Setup_v1.1.3.exe`：一般使用者建議使用的安裝版。安裝在目前使用者的目錄，可從 Windows「已安裝的應用程式」解除安裝。
+- `DocumentsToolkit_Windows11_x64_v1.1.3.zip`：可攜版。完整解壓後啟動「文書處理工具.exe」，請保留旁邊的 `_internal` 資料夾。
 - `SHA256SUMS.txt`：下載檔案的 SHA-256 校驗碼。
 
 ## 使用方式
@@ -15,6 +15,10 @@ PEICD100 開發的 Windows 11 x64 文書、PDF、圖片與影音工具。
 所有文書工具共用固定的來源、輸出與開始／停止位置。勾選「來源資料夾」可將檔案輸出在來源旁邊；只有全部來源位於同一個直接上層資料夾時可使用。取消勾選、清空來源或加入不同資料夾的檔案後，會恢復該工具上次手動選擇的位置。
 
 處理成功後會自動清空來源與選取項目。失敗或停止後保留來源，方便重試。輸出到來源旁邊時，會避開來源的同名檔案。
+
+## 圖片轉 PDF
+
+「A4 自動縮放」會顯示「保留原始像素，依 A4 版面縮放」，隱藏 DPI 選單。切換「依圖片比例」可選 DPI，切回 A4 再切回來會保留原本選擇。DPI 用於換算頁面尺寸，不增加圖片細節。
 
 ## 影音檢視工具
 
