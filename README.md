@@ -6,8 +6,8 @@ PEICD100 開發的 Windows 11 x64 文書、PDF、圖片與影音工具。
 
 到 [Releases](https://github.com/peicd100/documents-toolkit-releases/releases/latest) 下載：
 
-- `DocumentsToolkit_Setup_v1.1.4.exe`：一般使用者建議使用的安裝版。安裝在目前使用者的目錄，可從 Windows「已安裝的應用程式」解除安裝。
-- `DocumentsToolkit_Windows11_x64_v1.1.4.zip`：可攜版。完整解壓後啟動「文書處理工具.exe」，請保留旁邊的 `_internal` 資料夾。
+- `DocumentsToolkit_Setup_v1.1.5.exe`：一般使用者建議使用的安裝版。安裝在目前使用者的目錄，可從 Windows「已安裝的應用程式」解除安裝。
+- `DocumentsToolkit_Windows11_x64_v1.1.5.zip`：可攜版。完整解壓後啟動「文書處理工具.exe」，請保留旁邊的 `_internal` 資料夾。
 - `SHA256SUMS.txt`：下載檔案的 SHA-256 校驗碼。
 
 ## 使用方式
@@ -23,6 +23,8 @@ PEICD100 開發的 Windows 11 x64 文書、PDF、圖片與影音工具。
 ## 影音檢視工具
 
 開啟「影音檢視工具」，或在音檔、影片上按右鍵選擇以「文書處理工具」開啟。它有獨立視窗，不影響主工具正在進行的工作。
+
+v1.1.5 改善首次啟動與程式常駐時的開檔回應。直接開影音時先顯示播放器；需要文書功能時，再從系統匣選擇「開啟工具」。影片自動播放減少首幀等待，暫停開啟與逐幀仍保留精確定位。
 
 切換耳機或 Windows 預設音訊輸出時，播放器會自動重新連接；裝置連線失效時也會嘗試恢復。重連保留播放位置、播放／暫停、速度、音量與靜音，不必重新開啟檔案。暫時沒有可用的耳機或喇叭時會顯示提示，裝置變更後再自動嘗試；連續失敗的重試次數有限。
 
