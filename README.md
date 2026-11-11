@@ -6,9 +6,11 @@ PEICD100 開發的 Windows 11 x64 文書、PDF、圖片與影音工具。
 
 到 [Releases](https://github.com/peicd100/documents-toolkit-releases/releases/latest) 下載：
 
-- `DocumentsToolkit_Setup_v1.5.0.exe`：一般使用者建議使用的安裝版。安裝在目前使用者的目錄，可從 Windows「已安裝的應用程式」解除安裝。
-- `DocumentsToolkit_Windows11_x64_v1.5.0.zip`：可攜版。完整解壓後啟動「文書處理工具.exe」，請保留旁邊的 `_internal` 資料夾。
+- `DocumentsToolkit_Setup_v1.5.1.exe`：一般使用者建議使用的安裝版。安裝在目前使用者的目錄，可從 Windows「已安裝的應用程式」解除安裝。
+- `DocumentsToolkit_Windows11_x64_v1.5.1.zip`：可攜版。完整解壓後啟動「文書處理工具.exe」，請保留旁邊的 `_internal` 資料夾。
 - `SHA256SUMS.txt`：下載檔案的 SHA-256 校驗碼。
+
+v1.5.1 修正壓縮含 `.bat`／`.exe` 的資料夾時，Windows 權限表示差異導致誤報來源變更的問題，無需修改來源檔案或權限。
 
 ## 使用方式
 
