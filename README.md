@@ -2,13 +2,13 @@
 
 PEICD100 開發的 Windows 11 x64 文書、PDF、圖片與影音工具。
 
-## v1.8.1 正式版下載與安裝
+## v1.8.2 正式版下載與安裝
 
-**v1.8.1 將完成提示改至滑鼠旁，修正長圖首段縮放、加入外側接合狀態與快速捲動緩衝，快捷鍵顯示「啟用中／停用中」。可透過 App 內「檢查更新」升級。**
-到 [最新正式版](https://github.com/peicd100/documents-toolkit-releases/releases/latest) 或 [v1.8.1](https://github.com/peicd100/documents-toolkit-releases/releases/tag/v1.8.1) 手動下載。
+**v1.8.2 改善長圖正常小幅捲動的接縫誤報，以多區域與文字筆畫交叉確認，降低空白、固定工具列及局部動畫影響；先短暫確認再警告。可透過 App 內「檢查更新」升級。**
+到 [最新正式版](https://github.com/peicd100/documents-toolkit-releases/releases/latest) 或 [v1.8.2](https://github.com/peicd100/documents-toolkit-releases/releases/tag/v1.8.2) 手動下載。
 
-- `DocumentsToolkit_Setup_v1.8.1.exe`：每使用者安裝版；會更新目前安裝，想隔離測試可優先使用下列 ZIP。
-- `DocumentsToolkit_Windows11_x64_v1.8.1.zip`：完整解壓到另一個測試資料夾，啟動「文書處理工具.exe」，保留 `_internal` 資料夾。可攜版仍可能共用使用者偏好，不宣稱獨立設定沙盒。
+- `DocumentsToolkit_Setup_v1.8.2.exe`：每使用者安裝版；會更新目前安裝，想隔離測試可優先使用下列 ZIP。
+- `DocumentsToolkit_Windows11_x64_v1.8.2.zip`：完整解壓到另一個測試資料夾，啟動「文書處理工具.exe」，保留 `_internal` 資料夾。可攜版仍可能共用使用者偏好，不宣稱獨立設定沙盒。
 - `SHA256SUMS.txt`：下載檔案的 SHA-256 校驗碼。
 
 截圖、長截圖及錄影共用成功／失敗提示秒數，成功綠勾預設 0.5 秒、失敗紅叉預設 3 秒，可設 0～10 秒（每次 0.1 秒），0 秒關閉該類畫面提示。沿用 v1.7.0 預設關閉的「單視窗遠端可見控制列（實驗）」與每列快捷鍵停用／啟用。
@@ -19,7 +19,7 @@ PEICD100 開發的 Windows 11 x64 文書、PDF、圖片與影音工具。
 
 **尚未完成整合後的實際應用／Parsec互動驗收，也不提供完整全螢幕相容保證。** 先前生成單視窗候選通過不代表任意應用已支援。背景合成驗證不等於原生layered視窗／affinity查詢、實機像素排除、全域快捷鍵或真實音源已驗收。
 
-來源工作流整批測試曾在 PDF ToolWorker 的 Qt 建構發生原生存取違規，原因尚未定位；個別案例及本輪必要回歸通過不當作根因修復。本次新增提示與發布更新，不代表該問題已修復，請保留原檔並先用非重要檔案驗證；單視窗功能仍維持預設關閉的實驗選項。
+來源工作流整批測試曾在 PDF ToolWorker 的 Qt 建構發生原生存取違規，原因尚未定位；個別案例及本輪必要回歸通過不當作根因修復。本次長圖接合改善與發布更新，不代表該問題已修復，請保留原檔並先用非重要檔案驗證；單視窗功能仍維持預設關閉的實驗選項。
 
 ## 使用方式
 
