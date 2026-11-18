@@ -2,13 +2,13 @@
 
 PEICD100 開發的 Windows 11 x64 文書、PDF、圖片與影音工具。
 
-## v1.9.0 正式版下載與安裝
+## v1.10.1 正式版下載與安裝
 
-**v1.9.0 新增預設包含滑鼠游標，截圖／長圖／錄影各自可關閉並記住；長圖只在開始位置顯示一次，錄影隨操作移動。保留前版長圖接合與外側提示改善，可透過 App 內「檢查更新」升級。**
-到 [最新正式版](https://github.com/peicd100/documents-toolkit-releases/releases/latest) 或 [v1.9.0](https://github.com/peicd100/documents-toolkit-releases/releases/tag/v1.9.0) 手動下載。
+**v1.10.1 調整全域擷取快捷鍵與選取視窗的啟動流程，並在本機日誌記錄擷取階段，方便追查閃退。可透過 App 內「檢查更新」升級。**
+到 [最新正式版](https://github.com/peicd100/documents-toolkit-releases/releases/latest) 或 [v1.10.1](https://github.com/peicd100/documents-toolkit-releases/releases/tag/v1.10.1) 手動下載。
 
-- `DocumentsToolkit_Setup_v1.9.0.exe`：每使用者安裝版；會更新目前安裝，想隔離測試可優先使用下列 ZIP。
-- `DocumentsToolkit_Windows11_x64_v1.9.0.zip`：完整解壓到另一個測試資料夾，啟動「文書處理工具.exe」，保留 `_internal` 資料夾。可攜版仍可能共用使用者偏好，不宣稱獨立設定沙盒。
+- `DocumentsToolkit_Setup_v1.10.1.exe`：每使用者安裝版；會更新目前安裝。
+- `DocumentsToolkit_Windows11_x64_v1.10.1.zip`：完整解壓到另一個資料夾，啟動「文書處理工具.exe」，保留 `_internal` 資料夾。可攜版仍可能共用使用者偏好。
 - `SHA256SUMS.txt`：下載檔案的 SHA-256 校驗碼。
 
 截圖、長截圖及錄影共用成功／失敗提示秒數，成功綠勾預設 0.5 秒、失敗紅叉預設 3 秒，可設 0～10 秒（每次 0.1 秒），0 秒關閉該類畫面提示。沿用 v1.7.0 預設關閉的「單視窗遠端可見控制列（實驗）」與每列快捷鍵停用／啟用。
@@ -126,5 +126,7 @@ v1.1.5 改善首次啟動與程式常駐時的開檔回應。直接開影音時�
 主視窗右上角「設定」提供「自動檢查並下載更新」及「登入 Windows 後自動啟動」。v1.0.2 起，首次正常啟動／新安裝預設開啟登入自動啟動，登入 Windows 時只常駐系統匣。取消勾選即可停用，選擇會保存，重新啟動或升級不會強制恢復；不需要系統管理員權限。可攜版搬移位置後，請重新勾選以更新路徑。
 
 設定與啟動紀錄放在 `%LOCALAPPDATA%\DocumentsToolkit`。解除安裝預設保留這些設定。PPT 轉 PDF 功能需要電腦上安裝 Microsoft PowerPoint。
+
+如果按擷取快捷鍵後無反應或程式退出，請記下發生時間，並在 `%LOCALAPPDATA%\DocumentsToolkit\logs\startup.log` 找同一時間的 `Capture` 紀錄。若發生原生崩潰，可用該行的 `pid` 對照同目錄中的 `crash-<PID>.log`。
 
 本發布庫只提供成品、更新資訊與使用文件，PEICD100 自有程式原始碼維持私人。第三方開源元件依各自授權散布；授權文字與對應來源取得方式隨程式附於 `THIRD_PARTY_NOTICES.md` 與 `licenses` 目錄。
